@@ -1,0 +1,321 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+header{
+    background-color:#2d8285;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    height: 50px;
+    z-index: 2;
+   box-shadow: 2px 2px 20px white;
+   position: sticky;
+   top: 0px;
+}
+header img{
+    position: absolute;
+    top: 5px ;
+    left: 40px;
+    height: 40px;
+    width: 70px;
+    border-radius: 70%;
+}
+nav{
+    margin-right: 200px;
+    margin: 10px 0px;  
+}
+nav a{
+ text-decoration: none;
+ padding: 5px;
+ color:white;
+ margin: 10px;
+}
+nav a:hover{
+    background-color: orange;
+    border-radius: 10px;
+} .hed{
+    margin-left: 600px;
+}
+.hed a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    padding-right: 20px;
+}
+.hed i{
+    color: white;
+    padding-top: 10px;
+}
+.hed a:hover{
+    background-color: orange;
+    border-radius: 10px;
+}
+.home_page{
+    background-image: url(../imgpik/ingredients-healthy-foods-selection-set-up_35641-3104.jpg);
+    height: 100vh;
+    background-size: cover;
+    position: relative;}
+.sec_2{
+    padding: 80px 0px;
+    background-color: white;
+}
+.sec_2_title h1{
+    color:#33539e;
+    font-size: x-large;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+ padding: 0px 10px 0px 0px;
+
+}
+.sec_2_title p{
+    color:rgba(0, 0, 0, 0.701);
+    font-size: large;
+    align-items: center;
+    text-align: center;
+    padding: 30px 0px;
+}
+.sec_2_box{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.sec_2_box_item img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.sec_2_box_item h3{
+    color:#33539e;
+    align-items: center;
+    text-align: center;
+}
+.sec_2_box_item p{
+    color:rgba(0, 0, 0, 0.683);
+    align-items: center;
+text-align: center;
+}
+.sec_3_box{
+ display: flex;
+ justify-content: space-around; 
+}
+.sec_3_box_item{
+ height: 500px;
+ width: 24%;
+ text-align: center;
+ 
+ 
+}
+.sec_3_box_item img{
+    height: 250px;
+    width: 300px;
+}
+.sec_3_box_item p{
+    color:rgba(0, 0, 0, 0.819);
+    margin-top: 20px;
+}
+.sec_3_box_item h1{
+    color: #33539e;
+   
+}
+.sec_3_box_item h3{
+    color:steelblue;
+    
+}
+.sec_3_box_item li{
+    color:rgba(0, 0, 0, 0.795);
+    list-style: none;
+
+}
+.sec_4_title{
+    text-align: center;
+    align-items: center;
+    margin-bottom: 40px;
+    color:#33539e;
+}
+.sec_4_title p{
+    padding: 20px 0px;
+    color:rgba(0, 0, 0, 0.767);
+}
+
+.sec_4_box{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+
+}
+.sec_4_box_item{
+    width: 30%;
+    height: 430px;
+    background-color: #7facd6;
+}
+.sec_4_box_item h1{
+    background-color:#33539e;
+    padding: 10px 140px;
+    color: white;
+}
+.sec_4_box_item p{
+    border: 2px solid white;
+    padding: 20px 0px;
+    color: white;
+}
+.sec_4_box_item button{
+    padding: 5px 20px;
+    margin-top: 20px;
+    color: #33539e;
+
+}
+.sec_5{
+    padding: 80px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.sec_5_right{
+    height: 350px;
+    width: 50%;
+   background-color:#7facd6;
+  padding: 40px 40px;
+  position: relative;
+}
+.sec_5_right h1{
+    padding:10px 40px ;
+    color:white;
+}
+.sec_5_right h3{
+    
+    color:white;
+    padding: 10px 40px;
+
+}
+.sec_5_right p{
+
+    color:white;
+    padding: 10px 40px;
+}
+.sec_5_right span{
+    
+    color:white;
+    padding: 20px 40px;
+    display: inline;
+}
+.t{
+    position: absolute;
+    top: 245px;
+    left: 55px;
+    color: white;
+ 
+}
+.n{
+    position: absolute;
+    top: 205px;
+    left: 55px;
+    color: white;
+}
+.v{
+position: absolute;
+left: 55px;
+color: white;
+}
+.sec_5_left{
+    height:350px ;
+    width: 50%;
+    background-color:#7facd6;
+ position: relative;
+}
+.sec_5_left input {
+    display: block;
+    height: 50px;
+    width: 600px;   
+
+}
+ form{
+    margin-top: 80px;    
+ }
+.sec_5_left button{
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    padding: 5px 10px;
+    background-color:#33539e;
+    color: white;
+   display: inline;  
+}
+.sec_6{
+    background-image:url(../imgpik/indian-condiments-with-copy-space-view_23-2148723492.jpg);
+    background-size:cover ;
+    height: 100vh;
+    position: relative;
+
+}
+.sec_6_item{
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 380px;
+    left: 370px;
+}
+.sec_6_item h1{
+    color: white;
+    font-size: 100px;
+
+}
+.sec_6_item h3{
+    color: white;
+    font-size: 50px;
+
+}
+.sec_6_item p{
+    color: orange;
+    font-size: 30px;
+
+
+}
+.sec_6_item button{
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.53);
+    color: white;
+    margin-top: 10px;
+    padding: 10px ;
+}
+.sec_6_item button:hover{
+    background-color: orange;
+    transform: translate(0,-10px);
+}
+
+
+footer{
+    
+    text-align: center;
+    align-items: center;
+    background-color:#2d8285;
+    padding: 50px;
+    height: 200px;
+    width:100%;
+}
+footer h3{
+    color: white;
+    margin-bottom: 20px;
+}
+footer i{
+    background-color: rgba(255, 255, 255, 0.694);
+    color:rgba(0, 0, 0, 0.654);
+    margin-bottom: 20px;
+    padding: 0px 5px;
+}
+footer h4{
+    color: rgba(255, 255, 255, 0.767);
+    margin-bottom: 20px;
+}
+footer span{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.699);
+}
+footer i:hover{
+    transition: 0.5s;
+    transform:translate(0 , -20px) ;
+}
